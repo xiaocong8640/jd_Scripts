@@ -26,5 +26,5 @@ jobs:
         run: |
           echo "JD_COOKIE=$JD_COOKIE" >> $GITHUB_ENV
 
-      - name: 运行脚本
+      - name: jd_sign.js
         run: node jd_scripts.js  # 这里假设运行 jd_scripts.js，根据实际脚本修改
